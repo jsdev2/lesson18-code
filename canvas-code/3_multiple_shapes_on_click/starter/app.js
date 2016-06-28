@@ -21,7 +21,7 @@ function drawSquare(coords) {
 }
 
 canvasEl.addEventListener('click', function(event) {
-  var coords = getCoords(event, canvasEl);
+  var coords = getCoords(event);
   drawSquare(coords);
 });
 
